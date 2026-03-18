@@ -5,12 +5,12 @@ print("Calculadora en Python")
 
 # numero2 = 6  
 
-numero1 = input("Ingrese el primer número: ") 
+numero1 = int(input("Ingrese el primer número: ")) 
 
-numero2 = input("Ingrese el segundo número: ")  
+numero2 = int(input("Ingrese el segundo número: "))  
 
-# Sumar los números 
-suma = numero1 + numero2 
+# Multiplicar los números 
+multiplicacion = numero1 * numero2 
 
 # Mostrar el resultado 
-print(f"El resultado de la suma es: {suma}") 
+print(f"El resultado de la multiplicación es: {multiplicacion}") 
